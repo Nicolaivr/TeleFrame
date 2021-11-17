@@ -57,7 +57,7 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/LukeSkywalker92/TeleFrame/
 
 1. Download and install the latest *Node.js* version.
 2. If you like to use the voice reply feature you need to install sox
-3. Install *Electron* globally with `npm install -g electron`.
+3. Install *Electron* globally with `sudo npm install -g electron --unsafe-perm=true --allow-root`.
 4. Clone the repository and check out the master branch: `git clone https://github.com/LukeSkywalker92/TeleFrame.git`
 5. Enter the repository: `cd TeleFrame/`
 6. Install and run the app with: `npm install && npm start`
